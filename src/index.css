@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0 !important;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, .modal-body {
+  color: white !important;
+}
+
+.btn-close {
+   filter: invert(1);
+}
+
+.form-label {
+  color: white !important;
+}
+
+.carousel-item {
+  overflow: hidden;
+  border-radius: 15px;
+}
